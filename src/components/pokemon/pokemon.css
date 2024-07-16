@@ -1,0 +1,24 @@
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center items vertically */
+  align-items: center; /* Center items horizontally */
+  flex-basis: 20%;
+  flex-wrap: wrap;
+  height: 200px;
+  width: 300px;
+  border: 1px solid #756969ae; /* Optional: add a border for visual separation */
+  border-radius: 8px; /* Optional: add some border radius for rounded corners */
+  text-align: center; /* Center the text */
+  margin: 1rem;
+}
+
+.pokemon-img {
+  height: 150px;
+  max-height: 80%;
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+}
+.pokemon:hover{
+  background-color: #5c5a5aae;
+}
