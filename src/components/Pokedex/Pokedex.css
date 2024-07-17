@@ -1,7 +1,7 @@
 .pokedex-wrapper{
     display: flex;
     flex-direction: column;
-    background-color: rgb(61, 60, 60);
+    /* background-color: rgb(61, 60, 60); */
     
 }
 #pokedex-heading{

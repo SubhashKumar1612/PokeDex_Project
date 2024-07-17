@@ -5,7 +5,7 @@
   align-items: center; /* Center items horizontally */
   flex-basis: 20%;
   flex-wrap: wrap;
-  height: 200px;
+  height: 300px;
   width: 300px;
   border: 1px solid #756969ae; /* Optional: add a border for visual separation */
   border-radius: 8px; /* Optional: add some border radius for rounded corners */
@@ -13,12 +13,22 @@
   margin: 1rem;
 }
 
-.pokemon-img {
-  height: 150px;
-  max-height: 80%;
-  display: block;
-  margin: 0 auto; /* Center the image horizontally */
+
+.pokemon:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-.pokemon:hover{
-  background-color: #5c5a5aae;
+
+.pokemon-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: rgb(61, 60, 60); /* Consistent text color */
+}
+
+.pokemon-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
 }

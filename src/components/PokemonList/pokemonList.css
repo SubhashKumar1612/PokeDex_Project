@@ -1,8 +1,6 @@
 .pokemon-list-wrapper{
     margin: 1rem auto;
-    color: white;
     letter-spacing: 0.3rem;
-    background-color: rgb(61, 60, 60);
     display: flex;
     flex-direction: column;
     align-items: center;
