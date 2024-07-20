@@ -7,7 +7,7 @@
   flex-wrap: wrap;
   height: 300px;
   width: 300px;
-  border: 1px solid #756969ae; /* Optional: add a border for visual separation */
+  border: 1px solid #f5f0f0ec; /* Optional: add a border for visual separation */
   border-radius: 8px; /* Optional: add some border radius for rounded corners */
   text-align: center; /* Center the text */
   margin: 1rem;
