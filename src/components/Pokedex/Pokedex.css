@@ -1,10 +1,20 @@
-.pokedex-wrapper{
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.pokedex-wrapper {
     display: flex;
     flex-direction: column;
-    /* background-color: rgb(61, 60, 60); */
-    
+    min-height: 100vh; /* Ensures full viewport height */
 }
-#pokedex-heading{
+
+.pokedex-content {
+    flex: 1; /* Allows content to grow and push footer to the bottom */
+}
+
+#pokedex-heading {
     margin: 0 auto;
     color: rgb(235, 237, 247);
     letter-spacing: 4px;

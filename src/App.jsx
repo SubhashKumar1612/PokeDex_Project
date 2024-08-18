@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import './App.css';
 import Pokedex from './components/Pokedex/Pokedex'
 import CustomRoutes from './routes/CustomRoutes';
+import Footer from './components/Footer.jsx/Footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
      <Link to={`/`} >Pokedex</Link>
      </h1>
       <CustomRoutes/>
+      <Footer />
     </div>
   )
 }
